@@ -5,7 +5,7 @@ public class PinCodeMain {
 
 	public static boolean validatePinCode(String pin) {
 		
-		String pattern = "^[1-9]{1}[0-9]{5}";
+		String pattern = "^[1-9]{1}[0-9]{5}$";
 		return pin.matches(pattern);
 		
 	}
